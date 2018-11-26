@@ -1,4 +1,4 @@
-/* Getting input from user */
+/*------------------ Get input from user ------------------*/
 
 public class Main
 {
@@ -10,5 +10,27 @@ public class Main
 	}
 }
 
-/*Online complier to run the code
- *https://www.onlinegdb.com/online_java_compiler# */
+/*------------------ Simple Trade Calculation ------------------*/
+
+public class Main
+{
+	public static void main(String[] args)
+	{
+        {
+            System.out.print("Enter Stock Value: ");
+            String x = System.console().readLine();
+            System.out.print("Enter Stock Quantity: ");
+            String y = System.console().readLine();
+            Integer a = Integer.valueOf(x);
+            Integer b = Integer.valueOf(y);
+            Integer c = a*b;
+            System.out.println("Total value of Stock is: " + c);
+            System.out.println("Brokerage value for Intra day: " +c*0.05/100 );
+            System.out.println("Brokerage value for Delivery: " +c*0.5/100 );
+        }
+	}
+}
+
+
+/*------------------ Online Complier for run Time Environment ------------------*/
+/*https://www.onlinegdb.com/online_java_compiler# */
