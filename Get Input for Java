@@ -1,4 +1,4 @@
-/* https://www.onlinegdb.com/online_java_compiler# */
+/* Getting input from user */
 
 public class Main
 {
@@ -9,3 +9,6 @@ public class Main
     System.out.println("Your name is: " + name);
 	}
 }
+
+/*Online complier to run the code
+ *https://www.onlinegdb.com/online_java_compiler# */
